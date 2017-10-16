@@ -14,6 +14,11 @@
   import Test from '@/components/banner/banner.vue'
 
   export default {
+    data() {
+      return {
+        test: ''
+      }
+    }
 
   }
 </script>
