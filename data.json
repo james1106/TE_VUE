@@ -1,0 +1,4556 @@
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "data": [
+        {
+            "cid": "1",
+            "cname": "品类1",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类2",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类3",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类4",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类5",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类6",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类7",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类8",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类9",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类10",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+         {
+            "cid": "1",
+            "cname": "品类11",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        },
+        {
+            "cid": "1",
+            "cname": "品类12",
+            "tw_cname": null,
+            "en_cname": "test cats1",
+            "sid": "1",
+            "des": null,
+            "tw_des": null,
+            "en_des": null,
+            "type": "0",
+            "foods": [
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "1",
+                    "pname": "菜品1",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "12.50",
+                    "nprice": "11.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "1",
+                    "is_recommend": "0",
+                    "related_pid": "[2,3]",
+                    "sku": [
+                        {
+                            "sku_id": "12",
+                            "pid": "1",
+                            "sku_name": "菜品1规格",
+                            "tw_sku_name": "啛啛喳喳",
+                            "en_sku_name": "顶顶顶顶",
+                            "sku_price": "5.00"
+                        },
+                        {
+                            "sku_id": "5555",
+                            "pid": "1",
+                            "sku_name": "菜品规格1",
+                            "tw_sku_name": "大大大",
+                            "en_sku_name": "东方大道",
+                            "sku_price": "12.00"
+                        },
+                        {
+                            "sku_id": "1",
+                            "pid": "1",
+                            "sku_name": "规格1",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.50"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "1",
+                            "pid": "1",
+                            "aname": "菜1",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "2",
+                                    "avname": "菜1值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "1",
+                                    "avname": "菜1值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                },
+                {
+                    "cid": "1",
+                    "pid": "2",
+                    "pname": "菜品2",
+                    "tw_pname": "",
+                    "en_pname": "",
+                    "oprice": "13.50",
+                    "nprice": "9.50",
+                    "images": [
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        },
+                        {
+                            "max": "http://2.kuan1.cn/Images/20160905001130_95287.jpg",
+                            "min": "http://2.kuan1.cn/Images/20160905001130_95288.jpg"
+                        }
+                    ],
+                    "sort": "255",
+                    "des": null,
+                    "tw_des": null,
+                    "en_des": null,
+                    "sku_type": "2",
+                    "is_recommend": "0",
+                    "related_pid": "[1]",
+                    "sku": [
+                        {
+                            "sku_id": "2",
+                            "pid": "2",
+                            "sku_name": "规格2",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.50"
+                        },
+                        {
+                            "sku_id": "3",
+                            "pid": "2",
+                            "sku_name": "规格22",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "22.00"
+                        },
+                        {
+                            "sku_id": "5556",
+                            "pid": "2",
+                            "sku_name": "菜品2规格",
+                            "tw_sku_name": "",
+                            "en_sku_name": "",
+                            "sku_price": "2.00"
+                        }
+                    ],
+                    "attr": [
+                        {
+                            "aid": "4",
+                            "pid": "2",
+                            "aname": "菜2+2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "6",
+                                    "avname": "菜2值3",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        },
+                        {
+                            "aid": "2",
+                            "pid": "2",
+                            "aname": "菜2",
+                            "tw_aname": "",
+                            "en_aname": "",
+                            "val": [
+                                {
+                                    "avid": "4",
+                                    "avname": "菜2值2",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                },
+                                {
+                                    "avid": "3",
+                                    "avname": "菜2值1",
+                                    "tw_avname": "",
+                                    "en_avname": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "is_new": 0,
+                    "spicy_num": 0
+                }
+            ]
+        }
+    ]
+}
