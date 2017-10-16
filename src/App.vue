@@ -9,6 +9,8 @@
 
 <script>
 
+
+  import Test from '@/components/banner/banner.vue'
   import Test from '@/components/banner/banner.vue'
 
   export default {
