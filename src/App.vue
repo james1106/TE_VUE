@@ -1,15 +1,19 @@
 <template>
   <div id="app">
 
-    <keep-alive><router-view></router-view></keep-alive>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-	
-export default {
 
-}
+  import Test from '@/components/banner/banner.vue'
+
+  export default {
+
+  }
 </script>
 
 <style lang="stylus">
