@@ -9,18 +9,6 @@
 
 <script>
 
-
-  import Test from '@/components/banner/banner.vue'
-  import Test from '@/components/banner/banner.vue'
-
-  export default {
-    data() {
-      return {
-        test: ''
-      }
-    }
-
-  }
 </script>
 
 <style lang="stylus">
