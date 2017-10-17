@@ -35,6 +35,9 @@
       </div>
     </div>
 
+    <div class="m-code" @touchstart="touchStart($event)" @touchmove="touchMove($event)"
+         @touchend="touchEnd($event)"></div>
+
     <v-shopcart ref="shopcart" :selectFoods="selectFoods" :languageActive="languageActive"></v-shopcart>
     <!-- 食品详情页 -->
     <food :food="selectedFood" @add="addFood" :languageActive="languageActive" ref="food"></food>
@@ -64,7 +67,13 @@
         listHeight: [],
         config: config,
         language: 0,
-        selectedFood: {} // 当前选中的食品详情
+        selectedFood: {}, // 当前选中的食品详情
+        pageX: 0,
+        pageY: 0,
+        moveX: 0,
+        moveY: 0,
+        offsetX: 0,
+        offsetY: 0
       }
     },
     created() {
@@ -113,6 +122,25 @@
       }
     },
     methods: {
+      touchStart(e) {
+        this.pageX = e.touches[0].pageX
+        this.moveX = this.offsetX
+        this.pageY = e.touches[0].pageY
+        this.moveY = this.offsetY
+      },
+      touchMove(e) {
+        let moveX = e.targetTouches[0].pageX - this.pageX
+        this.offsetX = moveX + this.moveX
+        let moveY = e.changedTouches[0].pageY - this.pageY
+        this.offsetY = moveY + this.moveY
+        let dom = document.querySelector('.m-code')
+        this.$nextTick(function () {
+          dom.style.transform = `translate3d(${this.offsetX}px, ${this.offsetY}px, 0px)`
+        })
+      },
+      touchEnd(e) {
+
+      },
       isScroll() {
         this.couponscroll = new BScroll(this.$refs.menuwrapper, {
           click: true
@@ -260,4 +288,18 @@
                 position: absolute
                 right: 0
                 bottom: 18px
+
+    .m-code
+      position: absolute
+      right: 20px
+      bottom: 80px
+      width: 60px
+      height: 60px
+      border-radius: 50%
+      z-index: 5000
+      color: #f2f2f2
+      background: url(codebg.png)
+      background-size: 100% 100%
+
+
 </style>
