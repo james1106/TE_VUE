@@ -36,7 +36,36 @@
     </div>
 
     <div class="m-code" @touchstart="touchStart($event)" @touchmove="touchMove($event)"
-         @touchend="touchEnd($event)"></div>
+         @touchend="touchEnd($event)" @click="showMask = true"></div>
+
+    <!--模糊背景-->
+    <transition name="fade">
+      <div v-show="showMask" @click="showMask = false" class="list-mask"></div>
+    </transition>
+
+    <transition name="fade">
+      <div v-show="showMask" class="modal modal-in">
+        <div class="modal-inner">
+          <div class="modal-title">同桌点餐要输入</div>
+          <div class="modal-text">
+            <div class="m-code-box-main">
+              <div><span class="z-code">1</span></div>
+              <div><span class="z-code">2</span></div>
+              <div><span class="z-code">3</span></div>
+              <div><span class="z-code">4</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-buttons modal-buttons-1 ">
+          <span class="modal-button">
+            <div class="m-code-but">
+              <div @click="showMask = false" class="m-code-buttom-main">
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </transition>
 
     <v-shopcart ref="shopcart" :selectFoods="selectFoods" :languageActive="languageActive"></v-shopcart>
     <!-- 食品详情页 -->
@@ -62,6 +91,7 @@
     },
     data() {
       return {
+        showMask: false,
         goods: [],
         scrollY: 0,
         listHeight: [],
@@ -296,10 +326,99 @@
       width: 60px
       height: 60px
       border-radius: 50%
-      z-index: 5000
+      z-index: 2
       color: #f2f2f2
       background: url(codebg.png)
       background-size: 100% 100%
+    /* 模糊背景 */
+    .list-mask
+      width: 100%
+      position: fixed
+      top: 0
+      left: 0
+      bottom: 65px
+      z-index: 10
+      opacity: 1
+      backdrop-filter: blur(10px)
+      background-color: rgba(7, 17, 27, 0.8)
+    .fade-enter-active
+      transition: all .5s
+    .fade-leave-active
+      transition: all .5s
+    .fade-enter, .fade-leave-to
+      opacity: 0
+      transform: translate3d(0,0,0) scale(1.185)
+    .modal
+      width: 270px
+      position: absolute
+      z-index: 13500
+      left: 50%
+      margin-left: -135px
+      margin-top: -80px
+      top: 50%
+      text-align: center
+      border-radius: 13px
+      overflow: hidden
+      color: #000
+      background: url(alertbg.png)
+      background-size: 100% 100%
+      .modal-inner
+        background: none
+        padding: 15px 15px 0 15px
+        .modal-title
+          font-weight: 600
+          font-size: 18px
+          text-align: center
+        .modal-text
+          margin-top: 5px
+          .m-code-box-main
+            display: flex
+            padding: 10px 10px 10px 20px
+            box-sizing: border-box
+            div
+              flex: 1;
+              padding-right: 10px;
+              .z-code
+                display: inline-block
+                width: 100%
+                height: 35px
+                line-height: 35px
+                background: url(order_num_bg.png)
+                background-size: 100% 100%
+                text-align: center
+                font-size: 14px
+                font-weight: bold
+      .modal-buttons
+        height: 44px
+        position: relative
+        display: flex
+        justify-content: center
+        padding: 15px 0 15px 0
+        .modal-button
+          width: 100%;
+          padding: 0 5px;
+          height: 44px;
+          font-size: 17px;
+          line-height: 44px;
+          text-align: center;
+          color: #007aff;
+          display: block;
+          position: relative;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          cursor: pointer;
+          box-sizing: border-box;
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
+          background: rgba(255,255,255,.95);
+          .m-code-but
+            padding: 0 30px
+            box-sizing: border-box
+            .m-code-buttom-main
+              height: 32px
+              background: url(guige-confirm.png)
+              background-size: 100% 100%
 
 
 </style>
